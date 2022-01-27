@@ -18,6 +18,16 @@
       href="https://cdn.pixabay.com/photo/2016/08/25/07/30/red-1618916_960_720.png"
       type="image/x-icon"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -35,13 +45,13 @@
 
       <!-- nav starts -->
       <nav class="navbar">
-        <a href="'#home">home</a>
-        <a href="'#about">about</a>
-        <a href="'#food">food</a>
-        <a href="'#gallery">gallery</a>
-        <a href="'#menu">menu</a>
-        <a href="'#order">order</a>
-        <a href="'#blogs">blogs</a>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#food">food</a>
+        <a href="#gallery">gallery</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="#blogs">blogs</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -49,6 +59,91 @@
     </header>
     <!-- !Header Start -->
 
+    <!-- Main Area  -->
+    <main>
+      <!-- home starts -->
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide slide"
+              style="background: url(img/home-slide-1.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>outstanding food</span>
+                <h3>delicious cooking</h3>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+
+            <div
+              class="swiper-slide slide"
+              style="background: url(img/home-slide-2.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>outstanding food</span>
+                <h3>morning moment</h3>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+
+            <div
+              class="swiper-slide slide"
+              style="background: url(img/home-slide-3.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>outstanding food</span>
+                <h3>authentic kitchen</h3>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <!-- !home starts -->
+
+      <!-- about start -->
+      <section id="about" class="about">
+        <div class="image">
+          <img src="img/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Welcome to our Restaurant</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            excepturi at autem enim, ullam doloremque nisi alias veritatis quis
+            consequatur blanditiis quae magnam accusantium inventore laborum
+            laboriosam amet commodi a.
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="img/about-icon-1.png" alt="" />
+              <h3>quality food</h3>
+            </div>
+            <div class="icons">
+              <img src="img/about-icon-2.png" alt="" />
+              <h3>foods and drinks</h3>
+            </div>
+            <div class="icons">
+              <img src="img/about-icon-3.png" alt="" />
+              <h3>expert chefs</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- !about start -->
+    </main>
+    <!-- !Main Area  -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
   </body>
